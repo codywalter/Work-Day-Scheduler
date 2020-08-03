@@ -42,14 +42,15 @@ $(document).ready(function () {
 
   saveBtn.on("click", function () {
     var rowHour = $(this).attr("data-hour");
-    var input = $("#" + i + "row").val();
+    var input = $("#" + rowHour + "row").val();
     localStorage.setItem(rowHour, input);
     console.log(saveBtn);
+    // event.preventDefault();
   });
 
   function renderPlans() {
-    // for (var i = 0; i <= 12; i++) {
-    $("#" + i + "row").val(localStorage.getItem(i));
-    // }
+    for (var i = 0; i <= 12; i++) {
+      $("#" + i + "row").val(localStorage.getItem(i));
+    }
   }
 });
