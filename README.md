@@ -7,6 +7,6 @@ When the user enters in items in each time block they are saved to local storage
 deployed site: https://codywalter.github.io/Work-Day-Scheduler/
 repository: https://github.com/codywalter/Work-Day-Scheduler
 
-![](./images/Work-Day-Planner01)
+![](./images/Work-Day-Planner01.png)
 
-![](./images/Work-Day-Planner02)
+![](./images/Work-Day-Planner02.png)
